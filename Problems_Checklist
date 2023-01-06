@@ -1,0 +1,13 @@
+
+1. maximum-subarray
+	1. Kadane's Algo
+	2. bruteforce
+	3. Path for example: CLogics/Logics/Arrays
+
+2.Move Zeroes
+	1. 2 pointer technique
+	2. Path for example: ~/sambashare/Interview/CLogics/Logics/Arrays
+
+3. Group anagrams:
+	1. hasmap
+	2. Path for example: CLogics/Logics/Strings/LeetCode -- in progress
