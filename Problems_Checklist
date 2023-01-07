@@ -8,6 +8,13 @@
 	1. 2 pointer technique
 	2. Path for example: ~/sambashare/Interview/CLogics/Logics/Arrays
 
+3. Odd positions first and even positions last merging in linked list
+	1. even pointer increment 2 times to reach even positions
+	2. odd pointer increment 2 time to reach odd positions
+	3. fitst odd positions need to increment because link will miss if we take even
+	4. mege odd first and even linkedlist at the end of list;
+	5. Path for example: DataStructures/LL
+
 3. Group anagrams:
 	1. hasmap
 	2. Path for example: CLogics/Logics/Strings/LeetCode -- in progress
