@@ -15,6 +15,13 @@
 	4. mege odd first and even linkedlist at the end of list;
 	5. Path for example: DataStructures/LL
 
-3. Group anagrams:
+4. 19. Remove Nth Node From End of List
+	1. 2 pointers will maintain
+	2. fast pointer will move N positions and then move along with slow pointer 1 by 1
+	3. when fast pointer moved to last slow pointer will reach to N-1th node
+	4. skip and point the slow node to N+1 and delete N nod
+
+
+5. Group anagrams:
 	1. hasmap
 	2. Path for example: CLogics/Logics/Strings/LeetCode -- in progress
