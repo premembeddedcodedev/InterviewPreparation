@@ -26,6 +26,17 @@
 	1. join the 2 lls with addition and maintain carry
 	2. Path for example: DataStructures/LL
 
-6. Group anagrams:
+
+6. 160. Intersection of Two Linked Lists
+	1. take one pointer of each starting of the list
+	2. traverse one step and one step till end
+	3. whoever completes the first assign the pointer from another strating of the list
+	4. first we will get any delta if we have.. equalising the offset similar to both lists
+	5. iterate once again to find similar node address
+	6. return address
+	7. Path for example:DataStructures/LL
+	9. input: 5, (42191), 3, (893), 4, 3 - display the intersect address
+
+7. Group anagrams: In Progress
 	1. hasmap
 	2. Path for example: CLogics/Logics/Strings/LeetCode -- in progress
