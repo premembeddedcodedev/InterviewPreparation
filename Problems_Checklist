@@ -37,6 +37,16 @@
 	7. Path for example:DataStructures/LL
 	9. input: 5, (42191), 3, (893), 4, 3 - display the intersect address
 
+8. 560. Subarray Sum Equals K
+	1. Approach - 1: generate all possible combinations and increment count when the value is equal to K O(N3)
+	2. Approach - 2: Calculate pre-sum from 0th offset and keep it into array
+			a. sum[i,j] = Leftsum[j] - leftsum[i-1] or if i=0, then sum[i,j] = Leftsum[j] - leftsum[i]
+			b. use sum varianle instead of mantaining Leftsum array - complexity is O(N2) - Space complexity with out leftsum is O(N) otherwise with sum variable its O(1)
+			c. to find sub array, its always should be like start <= end index -> this is the condition we have to use for traversing entire array
+				i.TODO from below path 
+			d. path: CLogics/LeetCode
+			e. Reference :https://www.youtube.com/watch?v=HbbYPQc-Oo4 
+
 7. Group anagrams: In Progress
 	1. hasmap
 	2. Path for example: CLogics/Logics/Strings/LeetCode -- in progress
