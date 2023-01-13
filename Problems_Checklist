@@ -50,6 +50,9 @@
 	Similar to sub array above (8). Negative numbers will not work - need to change the map to other data structure.
 	Reference: https://www.youtube.com/watch?v=Lyay4WJwXyI
 
+10. 1658.MinimumOperationstoReduceXtoZero.c
+	- Need to resolve this problem yet
+	- located CLogics/LeetCode
 
 7. Group anagrams: In Progress
 	1. hasmap
