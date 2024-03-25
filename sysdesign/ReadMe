@@ -1,0 +1,4 @@
+https://inpyjama.com/mutex-is-not-semaphore/
+
+difference between binary sempahore vs mutex is 
+	" A mutex has a notion of inheriting the priority of the process, which minimizes priority inversion. Semaphores do not have this capability!"

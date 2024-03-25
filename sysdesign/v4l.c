@@ -17,9 +17,9 @@ struct my_video_device {
 };
 
 // IOCTL Commands
-	hashtag#define MY_VIDEO_IOC_MAGIC 'V'
-	hashtag#define MY_VIDEO_IOCTL_GET_FRAME _IOR(MY_VIDEO_IOC_MAGIC, 0, unsigned long)
-hashtag#define MY_VIDEO_IOCTL_SET_SETTINGS _IOW(MY_VIDEO_IOC_MAGIC, 1, struct v4l2_format)
+#define MY_VIDEO_IOC_MAGIC 'V'
+#define MY_VIDEO_IOCTL_GET_FRAME _IOR(MY_VIDEO_IOC_MAGIC, 0, unsigned long)
+#define MY_VIDEO_IOCTL_SET_SETTINGS _IOW(MY_VIDEO_IOC_MAGIC, 1, struct v4l2_format)
 
 static int my_video_ioctl(struct file *file, unsigned int cmd, unsigned long arg)
 {

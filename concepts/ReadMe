@@ -1,0 +1,7 @@
+const_is_not_const:
+	const qualifier instructs the compiler to not generate store instructions for the location of a variable as a result of the variable reassignment. 
+	It does not mean in any way that the variable's value will be constant! It is not guaranteed!
+
+
+Weak_and_strong_symbol:
+	where the notion of weak and strong is implicitly implied based on the declaration of the variable. Compilers usually provide a way for the programmer to explicitly specify a symbol to be weak, in case of GCC, it provides the __attribute__((weak)) attribute to mark the symbol as weak.
